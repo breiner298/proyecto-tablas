@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica de tablas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <main>
+        <h1>practicas de tablas en html</h1>
+        <!--aqui va un <section> por cada tabla de los pasos 1 a 9-->
+    <section>
+        <table>
+            <tr>
+                <td>ana</td>
+                <td>4.5</td>
+            <tr>
+            <tr>
+                <td>carlos</td>
+                <td>3.8</td>
+            </tr>    
+        </table>
+    </section>
+
+    <section>
+        <table>
+            <tr>
+                <th>Aprendiz</th>
+                <th>nota</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>4.5</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>producto</th>
+                    <th>precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>teclado</td><td>$85.000</td></tr>
+                <tr><td>maus</td><td>$40.000</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td>total</td><td>$125.000</td></tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section>
+        <table>
+            <caption>notas del primer trimestre</caption>
+            <thead>
+                <tr><th>aprendiz</th><th>nota</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Ana</td><td>4.5</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <table>
+            <tr>
+                <th colspan="2">datos personales</th>
+                <th>ficha</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>gomez</td>
+                <td>2875432</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <table>
+            <tr>
+                <th rowspan="2">lunes</th>
+                <td>7:00 a.m.</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td rowspan="2">lunes</td>
+                <td>9:00 a.m.</td>
+                <td>css</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Aprendiz</th>
+                    <th scope="col">Nota</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Ana</th>
+                    <td>4.5</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <div class="tabla-contenedor">
+            <table> ... </table>
+        </div>
+    </section>
+   </main>
+    
+    
+</body>
+</html>
